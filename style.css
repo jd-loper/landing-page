@@ -3,8 +3,12 @@ body {
     margin-left: 500px;
     margin-right: 500px;
     background: black;
+}
+
+.body-container {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .header {
@@ -14,6 +18,17 @@ body {
     align-items: center;
     justify-content: space-between;
     padding-bottom: 100px;
+}
+
+.footer {
+    display: flex;
+    background: #1F2937;
+    color: #F9FAF8;
+    font-size: 18px;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
 }
 
 .content {
@@ -91,6 +106,20 @@ button:hover {
     font-size: 18px;
     color: #E5E7EB;
     margin-right: 200px;
+}
+
+.info {
+    display: flex;
+    height: 500px;
+    background-color: #F9FAF8;
+    justify-content: center;
+}
+
+.head-text {
+    display: flex;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 50px;
 }
 
 .quote-box {
