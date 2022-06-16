@@ -55,14 +55,28 @@ button {
     border: none;
 }
 
+#button1 {
+    border: 2px solid #3882F6;
+}
+
+#button1:hover {
+    background-color: #1F2937;
+    transition: 0.4s;
+}
+
 #button2 {
     border: 2px solid #F9FAF8;
 
 }
 
+#button2:hover {
+    background-color: #1F2937;
+    transition: 0.4s;
+}
+
 .image {
     display: flex;
-    background: gray;
+    background: #E5E7EB;
     margin-right: 200px;
     height: 300px;
     width: 600px;
@@ -103,8 +117,17 @@ button {
 .header-links {
     display: flex;
     font-size: 18px;
-    color: #E5E7EB;
     margin-right: 200px;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #E5E7EB;
+    text-decoration: overline;
 }
 
 .info {
@@ -125,7 +148,7 @@ button {
     display: flex;
     height: 175px;
     width: 175px;
-    border: 2px dashed #3882F6;
+    background-color: #1F2937;
     border-radius: 12px;
 }
 
@@ -146,7 +169,6 @@ button {
 .info-text {
     display: flex;
     justify-content: center;
-    border: 2px dashed #3882F6;
     width: 175px;
     text-align: center;
 }
